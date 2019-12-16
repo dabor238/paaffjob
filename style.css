@@ -2972,6 +2972,7 @@ body:not(.stretched) .slider-parallax .slider-parallax-inner { left: auto; }
 	background-repeat: no-repeat;
 	background-size: cover;
 	overflow: hidden;
+	opacity: 0.8;
 }
 
 .swiper-slide [data-caption-animate] { -webkit-backface-visibility: hidden; }
@@ -2996,7 +2997,7 @@ body:not(.stretched) .slider-parallax .slider-parallax-inner { left: auto; }
 	height: 100%;
 }
 
-.slider-element.canvas-slider .swiper-slide img { width: 100%; }
+.slider-element.canvas-slider .swiper-slide img { width: 100%;}
 
 .slider-element.canvas-slider a {
 	display: block;
